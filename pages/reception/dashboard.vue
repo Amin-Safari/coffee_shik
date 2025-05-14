@@ -20,7 +20,7 @@
                     <div class="stat-icon bga">
                         <i class="bi bi-cup-hot-fill"></i>
                     </div>
-                    <div class="stat-info">
+                    <div class="stat-info ">
                         <h3>{{ stats.totalOrders }}</h3>
                         <p>سفارشات امروز</p>
                     </div>
@@ -63,7 +63,7 @@
                             <div v-for="order in activeOrders" :key="order.id" class="order-item "
                                 :class="{ 'urgent': order.isUrgent }" data-aos="fade-up">
                                 <div class="order-info">
-                                    <div class="order-number">#{{ order.id }}</div>
+                                    <div class="order-number bga">#{{ order.id }}</div>
                                     <div class="order-details">
                                         <h6>{{ order.customerName }}</h6>
                                         <p>{{ order.items.join('، ') }}</p>

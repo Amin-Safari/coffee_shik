@@ -2,12 +2,14 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary z-3 position-fixed w-100">
         <div class="container-fluid">
             <a class="navbar-brand ps-2" href="/"><i class="bi bi-cup-hot-fill"></i> Coffee Shik</a>
+            <NuxtLink href="/login" class="btn btn-primary ms-3"> login</NuxtLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse bg-dark rounded-pill justify-content-center"
+            
+            <div class="collapse navbar-collapse bg-dark rounded-2 justify-content-center"
                 id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 ">
                     <li class="nav-item">
